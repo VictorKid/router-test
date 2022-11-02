@@ -1,0 +1,7 @@
+supergraph:
+  # The socket address and port to listen on
+  listen: 0.0.0.0:4000
+
+plugins:
+  router.hello_world:
+    message: "Graphouzz Router!"
